@@ -1,48 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="my project.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Food,LLC</title>
 </head>
+
 <body>
-    <ul class="dropdown-content">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
+    <nav id="header-nav" class="navbar ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h2>Food,LLC</h2>
+            </a>
+            <button class="navbar-toggler d-block d-sm-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item"><a class="link-dark link-offset-2 link-underline-opacity-0 " href="#chicken">Chicken</a></li>
+                    <hr class="text-center d-block d-sm-s-none">
+                    <li class="nav-item"><a class="link-dark link-offset-2 link-underline-opacity-0 " href="#beef">Beef</a></li>
+                    <hr class="text-center d-block d-sm-s-none">
+                    <li class="nav-item"><a class="link-dark link-offset-2 link-underline-opacity-0 " href="#sushi">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main-content" class="container">
+        
+        <h2 id="menu-categories-title" class="text-center"><a id="top"></a> Our Menu </h2>
+        <div class="grid  row">
+            <div class="card shadow p-0 m-0.5 col-md-4 col-sm-6 col-xs-12">
+                <div class="card-body">
+                    <h5 id="chicken" class="card-title text-center ">Tea</h5>
+                     Asperiores enim ipsam nemo
+                    facilis non cupiditate quo laboriosam alias? Modi magni iure quam impedit in cum, totam ab neque
+                    fugiat maxime aliquam voluptate tempora! Obcaecati, ex in quos a quia adipisci dolorum tempora harum
+                    iste officia quo placeat esse accusamus illo impedit iure voluptate quod vero sequi odio tenetur!
+                    Dicta sapiente quaerat optio ut itaque ipsa eligendi, sequi, fugit dolorem, molestias placeat
+                    facilis aliquam ad iusto nemo. Exercitationem aut quisquam voluptatem deserunt reiciendis.
+                    Cupiditate labore maxime itaque quas debitis accusamus sed, iusto nesciunt eligendi, accusantium
+                    laboriosam deserunt nobis sint aut harum reiciendis unde culpa vel eaque. Repudiandae, repellat,
+                    inventore atque ullam ut iure eligendi placeat sunt dignissimos cum ab quibusdam.
+                    <a href="#top" class="btn btn-outline-dark back-to-top ">Back to Top</a>
+                </div>
+            </div>
+            <div class="card shadow p-0 m-0.5 col-md-4 col-sm-6 col-xs-12">
 
-            <ul class="nav-links">
-                <li class="dropdown">
-                    <ul class="dropdown-content">
-            </ul>
-            </ul>
-        </nav>
-    </header>
+                <div class="card-body">
+                    <h5 id="beef" class="card-title text-center ">Beef</h5>
+                   
+                     Modi magni iure quam impedit in cum, totam ab neque
+                    fugiat maxime aliquam voluptate tempora! Obcaecati, ex in quos a quia adipisci dolorum tempora harum
+                    iste officia quo placeat esse accusamus illo impedit iure voluptate quod vero sequi odio tenetur!
+                    Dicta sapiente quaerat optio ut itaque ipsa eligendi, sequi, fugit dolorem, molestias placeat
+                    facilis aliquam ad iusto nemo. Exercitationem aut quisquam voluptatem deserunt reiciendis.
+                    Cupiditate labore maxime itaque quas debitis accusamus sed, iusto nesciunt eligendi, accusantium
+                    laboriosam deserunt nobis sint aut harum reiciendis unde culpa vel eaque. Repudiandae, repellat,
+                    inventore atque ullam ut iure eligendi placeat sunt dignissimos cum ab quibusdam.
+                    <a href="#top" class="btn btn-outline-dark back-to-top ">Back to Top</a>
+                </div>
+            </div>
+            <div class="card shadow p-0 m-0.5 col-md-4 col-sm-12col-xs-12 ">
+                <div class="card-body">
+                    <h5 id="sushi" class="card-title text-center ">Pasta</h5>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo sunt, impedit quam
+                    asperiores repudiandae maxime magni placeat culpa delectus accusantium, rem cumque eaque porro quas.
+                    Enim vero nihil minus, sed, iusto fuga, odio quasi assumenda ducimus ea non facere eius. Neque
+                    asperiores tenetur quaerat alias sint repellendus error repudiandae, quia ratione soluta itaque
+                    atque nam accusamus eos vel officiis! Nesciunt quas atque quaerat soluta minima consectetur
+                    voluptates earum voluptatem officiis dolore blanditiis odit excepturi sed sit nemo eius maiores
+                    reprehenderit nulla alias placeat nam illum numquam, possimus laudantium.
+                    <a href="#top" class="btn btn-outline-dark back-to-top ">Back to Top</a>
+                </div>
+            </div>
+        </div>
 
+       
+    </div>
+    
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
-</html>
 
-    <h1>Our Menu</h1>
-    <ul>
-    <div class="col desktop tablet">
-        <section >
-          <li><p class="meal_title" id="t1"Roy p></p></li>  
-            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus beatae qui ipsum voluptatibus sunt architecto ipsa? Autem ipsam sed, ab animi quisquam, sapiente commodi id beatae omnis rem excepturi aliquam.</p>
-        </section>
-    </div>
-    <div class="col desktop tablet">
-        <section>
-            <p class="meal_title" id="t2">Emmanuella</p>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nesciunt illo optio maiores voluptatum quisquam rem ratione distinctio soluta sequi debitis incidunt enim magnam? Neque earum a quo itaque placeat.</p>
-        </section>
-    </div>
-    <div class="col desktop">
-        <section >
-            <p class="meal_title" id="t3">Banana </p>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ullam delectus odio ipsam aliquam minus ex praesentium animi debitis porro, dicta explicabo totam, optio perferendis magni! Quasi minima ex possimus!</p>
-        </section>
-    </div>
-</body>
 </html>

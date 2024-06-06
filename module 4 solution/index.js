@@ -1,5 +1,5 @@
 // Array of names
-let names = ["John", "Paul", "George", "Ringo", "Jane", "Emily", "Jack", "Anna"];
+let names = ["John", "Paul", "George", "Ringo", "Jane", "Emily", "Yaakov", "Paula"];
 
 // Loop over the array
 for (let i = 0; i < names.length; i++) {
@@ -8,8 +8,8 @@ for (let i = 0; i < names.length; i++) {
   
   // Check the first letter of the name
   if (name.charAt(0).toLowerCase() === 'j') {
-    console.log("Goodbye " + name);
+    console.log("Goodbye " + yaakov);
   } else {
-    console.log("Hello " + name);
+    console.log("Hello " + yaakov);
   }
 }
